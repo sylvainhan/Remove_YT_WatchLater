@@ -80,7 +80,8 @@ right click on the 'edit_playlist?prettyPrint=false' request
 
 # complete the videoId list
 - Back to Console, then launch js
-## JSON.stringify(extractSetVideoIds(ytInitialData.contents))
+
+JSON.stringify(extractSetVideoIds(ytInitialData.contents))
 
 - Copy the content
 - Replace the array of videoId by the copied content
